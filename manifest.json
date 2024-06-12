@@ -12,7 +12,8 @@
 		"js": ["scripts/redirect.js"],
 		"matches": [
 			"<all_urls>"
-		]
+		],
+		"run_at": "document_start"
 	}
 	]
 }
