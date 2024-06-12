@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			blockedSites = blockedSites || [];
 			blockedSites.push(newSite);
 			chrome.storage.sync.set( {blockedSites} ).then( () => {
-				siteInp.value = '';
+				siteInp.value = siteInp.getAttribute('placeholder');
 				updateUI(blockedSites);
 			})
 			})
