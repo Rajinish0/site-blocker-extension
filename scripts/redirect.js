@@ -8,7 +8,7 @@ chrome.storage.sync.get("blockedSites", ({ blockedSites }) => {
 		use regex
 		*/
 		if (window.location.href.includes(site)) {
-			window.location.href = "https://www.google.com";
+			window.location.href = "https://youtu.be/dQw4w9WgXcQ";
 		}
 	})
 }) //sync for a user
